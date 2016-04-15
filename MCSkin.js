@@ -12,7 +12,7 @@ function AddEvent(html_element, event_name, event_function) {
  
 function getSkin() {
     var input = document.getElementById("input").value;
-    var url = "http://s3.amazonaws.com/MinecraftSkins/" + input + ".png";
+    var url = "http://skins.minecraft.net/MinecraftSkins/" + input + ".png";
     document.getElementById("actualSkin").src = url;
 }
  
