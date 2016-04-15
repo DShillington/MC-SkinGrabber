@@ -1,0 +1,83 @@
+body{
+background-image: url("background.jpg");
+margin: 50px auto;
+}
+#header {
+    background-color:skyblue;
+    color:white;
+	height:80px;
+	width:600px;
+	margin: 0px auto;
+    text-align:center;
+    padding:5px; 	 
+	border-left: #333333 inset 4px;
+	border-Right: #333333 inset 4px;
+	border-Top: #333333 inset 4px;
+}
+
+#nav  {
+    background-color:skyblue;
+    color:white;
+	height:480px;
+	width:600px;
+	margin: 0px auto;
+    text-align:center;
+    padding:5px;
+	background: skyblue;
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    background: -o-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    border-left: #333333 inset 4px;
+	border-Right: #333333 inset 4px;
+}
+#footer  {
+    background-color:skyblue;
+    color:white;
+	height:20px;
+	width:600px;
+	margin: 0px auto;
+    text-align:center;
+    padding:5px;
+	border-left: #333333 inset 4px;
+	border-Right: #333333 inset 4px;
+	border-Bottom: #333333 inset 4px;
+}
+#actualSkin {
+    padding: 10px 10px;
+    border: #333333 inset 2px;
+    image-rendering: auto;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+	height:45px;
+	width:280px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px 2px;
+    cursor: pointer;
+	border: #333333 outset 2px;
+}
+img{
+padding: 10px 10px;
+    display: inline;
+    border: #333333 inset 1px;
+    background: white;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 );
+    image-rendering: -moz-crisp-edges;
+    image-rendering:   -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+
+}
