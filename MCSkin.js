@@ -1,6 +1,5 @@
 /* 
- * Script to grab the player skin
- *-papertazer
+ * Code By: papertazer
  */
  
 function AddEvent(html_element, event_name, event_function) {       
